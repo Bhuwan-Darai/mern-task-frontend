@@ -10,7 +10,7 @@ const Task = ({ task, index, deleteTask, getSingleTask, setToComplete }) => {
       <div className="task-icons">
         <FaCheckDouble color="purple" onClick={() => setToComplete(task)} />
         <FaEdit color="green" onClick={() => getSingleTask(task)} />
-        <FaRegTrashAlt color="red" onClick={(id) => deleteTask(task._id)} />
+        <FaRegTrashAlt color="red" onClick={() => deleteTask(task._id)} />
       </div>
     </div>
   );
