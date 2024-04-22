@@ -1,4 +1,5 @@
-import { FaEdit, FaCheckDouble, FaRegTrashAlt } from "react-icons/fa";
+import { FaEdit, FaRegTrashAlt } from "react-icons/fa";
+import { FaCheckDouble } from "react-icons/fa6";
 
 const Task = ({ task, index, deleteTask, getSingleTask, setToComplete }) => {
   return (
