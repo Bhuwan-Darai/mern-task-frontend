@@ -12,4 +12,5 @@ export default defineConfig({
       },
     },
   },
+  base: "./", // Specify the base URL here
 });
