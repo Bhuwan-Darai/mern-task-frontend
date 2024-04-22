@@ -13,4 +13,7 @@ export default defineConfig({
     },
   },
   base: "./", // Specify the base URL here
+  build: {
+    outDir: "dist", // Specify the output directory here
+  },
 });
